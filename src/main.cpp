@@ -9,7 +9,7 @@ void setup() {
     pinMode(alarmPin, OUTPUT);
     pinMode(resetPin, INPUT);
     pinMode(steadyHandPin, INPUT);
-    //End Pins
+    //Set up latch
     latch = false;
 }
 
